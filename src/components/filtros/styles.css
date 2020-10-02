@@ -1,0 +1,15 @@
+.titulo {
+    font-size: 20px;
+}
+.dividir {
+    border-top: 1px solid black; 
+    margin: 0
+}
+.lista {
+    list-style-type: none;
+    padding: 0;
+    font-size: 13px;
+}
+.sub-titulo {
+    background-color: #e4e8ee;
+}

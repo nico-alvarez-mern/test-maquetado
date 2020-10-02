@@ -1,0 +1,12 @@
+.producto {
+    width: 18rem;
+    border: none;
+    max-width: 250px;
+}
+.contenedor-info {
+    background-color: #fafafa;
+}
+.dividir {
+    border-top: 1px solid #858991; 
+    margin: 0;
+}

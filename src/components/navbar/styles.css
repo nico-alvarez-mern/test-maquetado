@@ -1,0 +1,18 @@
+.logo-principal {
+    width: 190px;
+}
+.logo-bars-solid {
+    width: 29px;
+    cursor: pointer;
+}
+.logo-shopping-solid {
+    width: 40px;
+}
+.logo-full-screen {
+    width: 18px;
+}
+.link {
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+}
