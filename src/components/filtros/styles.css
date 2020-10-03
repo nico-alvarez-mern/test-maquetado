@@ -13,3 +13,6 @@
 .sub-titulo {
     background-color: #e4e8ee;
 }
+li {
+    cursor: pointer;
+}

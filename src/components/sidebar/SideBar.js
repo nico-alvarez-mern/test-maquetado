@@ -24,7 +24,7 @@ const useStyles = makeStyles({
   }
 });
 
-export const SideBar = ({open,setOpen})=> {
+export const SideBar = ({open,setOpen,setFiltro,filtro})=> {
 
   const classes = useStyles();
 
@@ -70,7 +70,7 @@ export const SideBar = ({open,setOpen})=> {
             </Button>
             <hr className={classes.divider} />
             <div className="container">
-              <Filtros /> 
+              <Filtros setFiltro={setFiltro} filtro={filtro}/> 
           </div>
         </div>
     </Drawer>

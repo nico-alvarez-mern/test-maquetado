@@ -1,6 +1,7 @@
 import React from 'react'
 import './styles.css';
-export const Filtros = () => {
+export const Filtros = ({setFiltro,filtro}) => {
+
     return (
         <div>
             <h4 className="titulo font-weight-bold">Zapatillas</h4>
@@ -30,11 +31,25 @@ export const Filtros = () => {
                 <li className="font-weight-bold sub-titulo">
                     Color
                 </li>
-                <li>Amarillo</li>
-                <li>Negro</li>
-                <li>Verde</li>
-                <li>Azul</li>
+                <li onClick={ ()=> setFiltro({...filtro, color:'blanco'}) }>
+                    Blanco
+                </li>
+                <li onClick={ ()=> setFiltro({...filtro, color:'negro'}) }>
+                    Negro
+                </li>
+                <li onClick={ ()=> setFiltro({...filtro, color:'gris'}) }>
+                    Gris
+                </li>
             </ul>
+            <button className="btn btn-dark"
+                    onClick={ ()=> setFiltro({
+                        categoria: "",
+                        talle: "",
+                        color: ""
+                    }) }
+            >
+                Quitar filtros
+            </button>
         </div>
     )
 }
