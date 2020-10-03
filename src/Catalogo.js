@@ -1,5 +1,6 @@
 import React, {useEffect,useState} from 'react';
 import { Filtros } from './components/filtros/Filtros';
+import { Footer } from './components/footer/Footer';
 import { Navbar } from './components/navbar/Navbar';
 import { SideBar} from './components/sidebar/SideBar';
 import { Tarjetas } from './components/zapatillas/Tarjetas';
@@ -38,6 +39,7 @@ export const Catalogo = () => {
                     <Tarjetas />
                 </div>
             </div>    
+            <Footer windowsWidth={windowsWidth} />
         </>
     )
 }

@@ -1,5 +1,6 @@
 import React from 'react';
 import './styles.css';
+
 export const Producto = ({producto}) => {
 
     const { imagen, modelo, precio } = producto;
