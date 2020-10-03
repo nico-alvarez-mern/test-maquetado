@@ -1,0 +1,20 @@
+El proyecto esta esta creado con react lo cual para hacer el deploy deberas tener 
+instalado node y ejecutar dentro de la carpeta del proyecto 
+el comando npm install para instalar los paquetes y luego npm start.
+De igual forma les dejo el link ya levantado en un servidor por si surge algun problema
+para el deploy o simplemente para mas comodidad
+
+https://test-maquetado.vercel.app/
+https://github.com/nicoAlvarezMern/test-maquetado
+
+Tambien podras visualizar otras practicas que desarrolle en:
+https://portfolio-ui.nicoalvarezmern.vercel.app/
+
+Solamente cree los filtros para los colores.
+
+Utilice Boostrap, Material Ui para el sidebar. Y lo hice responsive utilizando un hook
+useState para obtener el tamaño de la pantalla actual y cada vez que se cambia el mismo.
+
+Aclaro tambien que tengo muchisimas horas de practicas a lo que es logica y desarrollo que
+al maquetado.
+
